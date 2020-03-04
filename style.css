@@ -29,8 +29,8 @@ li {
     font-size: 1.3em;
 }
 
-.mgr-6 {
-    margin-left: 56px;
+td {
+    text-align: left;
 }
 
 a.Link {
