@@ -35,6 +35,7 @@ li {
 }
 
 th {
+    width: 140;
     vertical-align: top;
     text-align: left;
 }
