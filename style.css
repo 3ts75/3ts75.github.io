@@ -1,6 +1,12 @@
 body {
-    margin: 3% 30%;
     background: #333333;
+    text-align: center;
+    width: 540px;
+    margin: auto;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
 }
 #Title {
     color: white;
