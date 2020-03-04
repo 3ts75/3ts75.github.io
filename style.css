@@ -13,6 +13,10 @@ body {
     margin-bottom: 0px;
     font-size: 4em;
 }
+
+#all {
+    text-align: left;
+}
 p.Subtitle {
     color: greenyellow;
     text-align: center;
