@@ -1,10 +1,16 @@
+@font-face
+{
+font-family: "degima";
+src: url('https://cdn.leafscape.be/dejima-mincho/dejima-mincho_web.woff2')
+     format("woff2");
+}
 body {
     background: #333333;
     width: 540px;
     margin: auto;
     border-radius: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
     padding: 5px;
 }
 #Title {
@@ -17,12 +23,24 @@ body {
 #All {
     text-align: left;
 }
+
+#Sub {
+    background-color: white;
+    padding: 0px 20px 20px 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-bottom: 20px;
+}
 p.Subtitle {
-    color: greenyellow;
+    font-family:  "degima";
+    color: purple;
     text-align: center;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    font-size: 2.3em;
+    font-size: 3em;
+    font-weight: 900;
 }
 
 table {
@@ -30,12 +48,12 @@ table {
     padding-top: 0px;
 }
 li {
-    color: white;
+    color: black;
     font-size: 1.3em;
 }
 
 th {
-    width: 140;
+    width: 160px;
     vertical-align: top;
     text-align: left;
 }
@@ -45,10 +63,10 @@ td {
 }
 
 a.Link {
-    color: white;
+    color: #7e1083;
 }
 
 a:hover {
     text-decoration: none;
-    color: yellow;
+    color: blueviolet;
 }
