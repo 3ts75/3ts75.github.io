@@ -29,6 +29,11 @@ li {
     font-size: 1.3em;
 }
 
+th {
+    vertical-align: top;
+    text-align: left;
+}
+
 td {
     text-align: left;
 }
