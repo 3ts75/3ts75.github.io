@@ -15,9 +15,15 @@ body {
 }
 #Title {
     color: white;
+    background: purple;
     text-align: center;
+    margin-top: 0px;
     margin-bottom: 0px;
+    padding-top: 64px;
+    padding-bottom: 10px;
     font-size: 4em;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 
 #All {
@@ -41,6 +47,7 @@ p.Subtitle {
     padding-bottom: 0px;
     font-size: 3em;
     font-weight: 900;
+    margin-top: 20px;
 }
 
 table {
@@ -68,5 +75,6 @@ a.Link {
 
 a:hover {
     text-decoration: none;
-    color: blueviolet;
+    color: #e2437a;
 }
+
