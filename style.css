@@ -23,6 +23,7 @@ src: url('https://cdn.leafscape.be/dejima-mincho/dejima-mincho_web.woff2')
 }
 
 #Title {
+  font-family: "Merienda";
   color: white;
   background: purple;
   text-align: center;
@@ -85,7 +86,6 @@ td {
 
 /* Default Styling */
 body {
-  font-family: 'Merienda', cursive;
   background: #000;
 }
 .container {
