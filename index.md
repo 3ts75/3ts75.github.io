@@ -1,14 +1,14 @@
 # 3ts75.github.io
 
 ## Profile
-- Name: **3ts75**
+- Name: **mi2**
 - Team: [IPFactory](https://ipfactory.github.io)
 - Profession: Student(Informaiton Science College)
 - Language: C/C++ > Rust > PowerShell(C#)
 - Editor: VS Code/Visual Studio
 - Like: Reversing Engineering/Malware Analysis/Competitive programming/Network
-- Tools: PE-bear/HxD/x32dbg(x64dbg)/ghidra > IDA/Process Hacker
-- Hobby: Karate/Snow board
+- Tools: PE-bear/HxD/x32dbg(x64dbg)/IDA>Ghidra/Process Hacker
+- Hobby: Snow board/Karate
 
 ## Activities
 - SANS NetWarsトーナメント2018
@@ -20,6 +20,12 @@
 - 実用数学技能検定: 2級
 - 基本情報技術者試験
 - Cisco Certified Entry Networking Technician
+
+## Technique
+- [readpe](https://github.com/3ts75/readpe)
+- [Dynamic payload(MessageBox)](https://gist.github.com/3ts75/db72e53c4b94cfd9ca3271892db089e7)
+- [Process injection via Atom Table](https://gist.github.com/3ts75/3cab225882d3cd48c83781e685fccfae)
+- [ROP injection](https://github.com/3ts75/Rop-injection)
 
 ## Analyzed
 - c9ed87e9f99c631cda368f6f329ee27e
