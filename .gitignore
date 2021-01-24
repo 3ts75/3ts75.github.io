@@ -1,1 +1,12 @@
+# hidden files
+.*
+!.github
+
+# jekyll cache
+_site
+vendor
+
+/_posts/2019-08-08-text-and-typography.md
+/_posts/2019-08-08-write-a-new-post.md
+
 .vscode/
