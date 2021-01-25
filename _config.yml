@@ -183,3 +183,12 @@ sitemap_exclude:  # Sitemap will exclude the following items.
     - sitemap.xml
     - robots.txt
     - redirects.json
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
