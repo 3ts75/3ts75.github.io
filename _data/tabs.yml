@@ -20,8 +20,8 @@
   url: tags
 -
   name: "Archives"
-  path: tabs
   url: archives
+  path: tabs
   icon: "fas fa-archive"
 -
   name: "About"
