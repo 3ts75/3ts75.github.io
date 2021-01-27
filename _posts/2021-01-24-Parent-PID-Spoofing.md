@@ -108,3 +108,6 @@ int main(int argc, char* argv[]) {
   return result;
 }
 ```
+
+# Reference
+[Access Token Manipulation: Parent PID Spoofing, Sub-technique T1134.004 - Enterprise | MITRE ATT&CK®](https://attack.mitre.org/techniques/T1134/004/)
