@@ -1,6 +1,6 @@
 ---
 title: Custom GetProcAddress
-date: 2021-03-03 18:05:00 +09:00
+date: 2021-03-03 19:53:00 +09:00
 categories: [Windows, BendyBear]
 tags: [Malware]
 ---
